@@ -7,9 +7,9 @@ from app.routes.application_routes import router as application_router
 
 app = FastAPI(title="AI Job Application Agent")
 
-# TODO: add the deployed Vercel frontend URL (e.g. "https://your-app.vercel.app")
-# to allow_origins once it's known, or the production frontend won't be able to
-# call this API.
+# allow_origin_regex covers Vercel's preview/production subdomains, which are
+# assigned randomly (e.g. "https://ai-job-agent-xyz123.vercel.app"), so there's
+# no single fixed URL to list in allow_origins.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -18,6 +18,7 @@ app.add_middleware(
         "http://localhost:5174",
         "http://127.0.0.1:5174",
     ],
+    allow_origin_regex=r"^https://.*\.vercel\.app$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
