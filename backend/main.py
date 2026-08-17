@@ -7,6 +7,9 @@ from app.routes.application_routes import router as application_router
 
 app = FastAPI(title="AI Job Application Agent")
 
+# TODO: add the deployed Vercel frontend URL (e.g. "https://your-app.vercel.app")
+# to allow_origins once it's known, or the production frontend won't be able to
+# call this API.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[

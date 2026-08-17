@@ -1,0 +1,16 @@
+fastapi==0.141.1
+python-multipart==0.0.32  # required by FastAPI for UploadFile/File(...), no direct import
+uvicorn==0.52.1
+sqlalchemy==2.0.52
+psycopg2-binary==2.9.12  # postgres driver for DATABASE_URL, no direct import
+pydantic==2.13.4
+email-validator==2.3.0  # required by pydantic's EmailStr, no direct import
+python-dotenv==1.2.2
+python-jose==3.5.0
+cryptography==50.0.0  # jose's crypto backend, no direct import
+passlib==1.7.4
+bcrypt==4.0.1  # passlib's bcrypt backend, no direct import
+groq==1.6.0
+pdfplumber==0.11.10
+python-docx==1.2.0
+httpx==0.28.1
