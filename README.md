@@ -153,7 +153,4 @@ This was validated against a real attack, not a hypothetical one: a live RemoteO
 **Darakhshan Mujtaba**
 Biomedical Engineering student · AI/ML & NLP Engineer
 
-- GitHub: [add your link]
-- LinkedIn: [add your link]
-
 </div>
