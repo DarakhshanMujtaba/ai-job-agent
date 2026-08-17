@@ -4,7 +4,7 @@
 
 ### An AI job-application agent that tells you the truth, not just what you want to hear.
 
-**[🚀 Live Demo](#)** · **[📹 Video Walkthrough](#)** · **[🔗 Backend API Docs](#)**
+**[🚀 Live Demo](https://ai-job-agent-indol.vercel.app)** · **[📹 Video Walkthrough](#)** · **[🔗 Backend API Docs](https://ai-job-agent-0idz.onrender.com/docs)**
 
 *Most "AI job agents" mass-apply to everything and hope something sticks. Sagehire scores your real fit, tells you honestly when it's weak, and only helps you apply when it's actually worth your time.*
 
@@ -61,8 +61,8 @@ Built for candidates who'd rather know the truth than waste a shot.
 
 ## 🌐 Live Demo
 
-**Frontend:** `[your-vercel-url].vercel.app`
-**Backend API:** `[your-render-url].onrender.com`
+**Frontend:** [ai-job-agent-indol.vercel.app](https://ai-job-agent-indol.vercel.app)
+**Backend API:** [ai-job-agent-0idz.onrender.com](https://ai-job-agent-0idz.onrender.com)
 
 > ⚠️ **Heads up before you try it:** this runs on free-tier infrastructure. The backend may take **30–50 seconds to wake up** on the first request if it's been idle (Render's free tier sleeps after 15 minutes of inactivity). The AI features also share a free-tier LLM API quota, so if a lot of people try it at once, you might hit a rate limit — that's expected behavior on free infrastructure, not a bug. Give it a moment and try again.
 
@@ -227,8 +227,8 @@ I'd rather tell you these upfront than have you discover them:
 **Darakhshan Mujtaba**
 Biomedical Engineering student · AI/ML & NLP Engineer
 
-- GitHub: [add your link]
-- LinkedIn: [add your link]
+- GitHub: [github.com/DarakhshanMujtaba](https://github.com/DarakhshanMujtaba)
+- LinkedIn: [linkedin.com/in/darakhshan-mujtaba-580183271](https://linkedin.com/in/darakhshan-mujtaba-580183271)
 
 ---
 
