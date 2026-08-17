@@ -5,12 +5,12 @@ import {
   Lock,
   Mail,
   ShieldCheck,
-  Sparkles,
   Target,
 } from "lucide-react";
 import { useState, type FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
+import logoHorizontal from "@/assets/logo-horizontal-dark.png";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { useAuth } from "@/context/AuthContext";
@@ -91,13 +91,12 @@ export default function AuthPage() {
               "radial-gradient(circle at 20% 20%, rgba(245,165,36,0.12), transparent 45%), radial-gradient(circle at 80% 70%, rgba(43,181,172,0.1), transparent 45%)",
           }}
         />
-        <div className="relative z-10 flex items-center gap-2.5">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 text-void-950 shadow-glow">
-            <Sparkles size={18} strokeWidth={2.5} />
-          </div>
-          <span className="font-display text-lg font-bold text-void-50">
-            Sagehire
-          </span>
+        <div className="relative z-10">
+          <img
+            src={logoHorizontal}
+            alt="Sagehire"
+            className="h-11 w-auto"
+          />
         </div>
 
         <div className="relative z-10 max-w-md">
@@ -144,13 +143,12 @@ export default function AuthPage() {
 
       <div className="flex items-center justify-center px-6 py-16">
         <div className="w-full max-w-sm">
-          <div className="mb-8 flex lg:hidden items-center gap-2.5 justify-center">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 text-void-950">
-              <Sparkles size={18} strokeWidth={2.5} />
-            </div>
-            <span className="font-display text-lg font-bold text-void-50">
-              Sagehire
-            </span>
+          <div className="mb-8 flex lg:hidden items-center justify-center">
+            <img
+              src={logoHorizontal}
+              alt="Sagehire"
+              className="h-7 sm:h-8 w-auto"
+            />
           </div>
 
           <div className="mb-7 flex rounded-xl border border-void-600 bg-void-800/60 p-1">

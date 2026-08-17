@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
-import { LayoutDashboard, LogOut, Sparkles, Kanban } from "lucide-react";
+import { LayoutDashboard, LogOut, Kanban } from "lucide-react";
 import type { ReactNode } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
+import logoHorizontal from "@/assets/logo-horizontal-dark.png";
 import { useAuth } from "@/context/AuthContext";
 import { cn } from "@/lib/cn";
 
@@ -19,14 +20,11 @@ export function AppShell({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-30 border-b border-void-700/80 bg-void-900/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 sm:px-6 py-3.5">
           <div className="flex items-center gap-8">
-            <div className="flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-amber-400 to-amber-600 text-void-950 shadow-glow">
-                <Sparkles size={17} strokeWidth={2.5} />
-              </div>
-              <span className="font-display text-base font-bold tracking-tight text-void-50">
-                Sagehire
-              </span>
-            </div>
+            <img
+              src={logoHorizontal}
+              alt="Sagehire"
+              className="h-7 sm:h-8 w-auto shrink-0"
+            />
             <nav className="hidden sm:flex items-center gap-1">
               {navItems.map((item) => (
                 <NavLink
