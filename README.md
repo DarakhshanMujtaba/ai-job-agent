@@ -4,7 +4,7 @@
 
 ### An AI job-application agent that tells you the truth, not just what you want to hear.
 
-**[🚀 Live Demo](https://ai-job-agent-indol.vercel.app)** · **[📹 Video Walkthrough](#)** · **[🔗 Backend API Docs](https://ai-job-agent-0idz.onrender.com/docs)**
+**[🚀 Live Demo](https://ai-job-agent-indol.vercel.app)** · **[🔗 Backend API Docs](https://ai-job-agent-0idz.onrender.com/docs)**
 
 *Most "AI job agents" mass-apply to everything and hope something sticks. Sagehire scores your real fit, tells you honestly when it's weak, and only helps you apply when it's actually worth your time.*
 
